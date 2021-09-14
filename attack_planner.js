@@ -614,10 +614,10 @@ function getBBCodePlans(plans, destinationVillage) {
 
 		bbCode += `[unit]${unit}[/unit] ${coords} [b][color=#ff0000]${priority}[/color][/b]${launchTimeFormatted}[url=${
 			window.location.origin
-		}${commandUrl}]${tt('Send')}[/url]\n`;
+		}${commandUrl}]${tt('Send')}[/url][|]\n`;
 	});
 
-	bbCode += `\n`;
+	bbCode += ``;
 	return bbCode;
 }
 
